@@ -34,8 +34,8 @@ export default async function page() {
           Get Your Awesome Goodies
         </h1>
         <p className="text-center text-xl text-gray-500">
-          Elevate Your Space with stuning art prints ,Transform Your
-          sorroundings
+          Welcome to TechTrove, your one-stop destination for cutting-edge
+          electronics that redefine innovation!
         </p>
       </div>
 

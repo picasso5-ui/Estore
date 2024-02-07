@@ -1,9 +1,13 @@
 import Image from "next/image";
+import Link from 'next/link';
 
 const Card = ({product}) => {
   return (
+    <Link href ={`/details/${product?.slug}`} >
+
     <div className="relative shadow-md max-w-sm cursor-pointer">
-      <div
+
+    <div
         className="relative h-96 overflow-hidden aspect-ratio-1 hover:scale-105      
       transition-transform duration-300 rounded-md"
       >
@@ -22,6 +26,7 @@ const Card = ({product}) => {
         <span className="text-[#582086] text-lg font-semibold">${product.price}</span>
       </div>
     </div>
+    </Link>
   );
 };
 
