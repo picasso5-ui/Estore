@@ -8,7 +8,6 @@ function Details({product}) {
        const cart = useCartStore(state=>state.cart)
        const addToCart = useCartStore(state=>state.addToCart)
        const [quantity,setQuantity] = useState(1)
-        console.log(cart)
 
        const handleAddToCart = () => {
         addToCart({product,quantity:quantity})
